@@ -1,23 +1,22 @@
-This folder contains files for P0: Analyze Bay Area Bike Share Data.
+# Análise da Bay Area Bike Share
 
-Bay\_Area\_Bike\_Share\_Analysis.ipynb - Main project file.
+## Introdução
 
-babs\_datacheck.py; babs\_visualizations.py - Supplemental scripts for checking
-data wrangling, reporting of basic statistics, and creation of exploratory bar
-charts and histograms.
+[Bay Area Bike Share](http://www.bayareabikeshare.com/) é uma empresa que oferece aluguel de bicicletas on-demand para clientes em San Francisco, Redwood City, Palo Alto, Mountain View e San Jose. Os usuários podem desbloquear bicicletas de uma variedade de estações em cada cidade, e devolvê-las em qualquer estação dentro da mesma cidade. Os usuários pagam o serviço por meio de assinatura anual ou pela compra de passes de 3 dias ou 24 horas. Os usuários podem fazer um número ilimitado de viagens. Viagens com menos de trinta minutos de duração não têm custo adicional; Viagens mais longas incorrem em taxas de horas extras.
 
-Data is split among twelve other files, organized into three sets of four files
-each. Prefixing each set is one of three datestamps, showing the end month for
-each data collection period (201402, 201408, 201508). Suffixes for each file
-indicate contents:
+Neste projeto, você vai se colocar no lugar de um analista de dados realizando uma análise exploratória sobre os dados. Você vai dar uma olhada em duas das principais partes do processo de análise de dados: limpeza de dados e análise exploratória. Mas antes que você comece a olhar os dados, pense algumas perguntas que você pode querer fazer sobre os dados. Considere, por exemplo, se você estivesse trabalhando para Bay Area Bike Share: que tipo de informação você gostaria de saber a fim de tomar decisões de negócios mais inteligentes? Ou você pode pensar se você fosse um usuário do serviço de compartilhamento de bicicletas. Que fatores podem influenciar a maneira como você gostaria de usar o serviço?
 
-\*\_README.txt - Information about contents of data files.
+# Sobre este projeto
 
-\*\_station\_data.csv - Basic information about station locations and
-capacities.
+Este é o seu primeiro projeto com a Udacity. Queremos fazer com que você treine os conhecimentos aprendidos durante o curso e que entenda algumas das dificuldades que pode ter quando for aplicar os mesmos. 
 
-\*\_trip\_data.csv - Information about each trip taken using the bike share
-system.
+Os principais pontos que serão verificados neste trabalho:
 
-\*\_weather\_data.csv - Weather information by day for one station in each
-city in the bike share program.# bay-area-bike-share-analise
+- Criação de dicionários e mapeamento de variáveis
+- Uso de lógica com o `if`
+- Manipulação de dados e criação de gráficos simples com o `Pandas`
+
+**Espera-se que o estudante entregue este relatório com:**
+
+- Todos os TODO feitos, pois eles são essenciais para que o código rode corretamente
+- Todas as perguntas respondidas. Elas estão identificadas como PERGUNTA em letras grandes.
